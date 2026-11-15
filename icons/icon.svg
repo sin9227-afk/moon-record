@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="달의 기록">
+  <rect width="512" height="512" rx="112" fill="#f6f3ec"/>
+  <mask id="moon">
+    <rect width="512" height="512" fill="#000"/>
+    <circle cx="256" cy="256" r="150" fill="#fff"/>
+    <circle cx="333" cy="232" r="150" fill="#000"/>
+  </mask>
+  <rect width="512" height="512" mask="url(#moon)" fill="#2b2723" rx="112"/>
+  <path d="M386 138l8 20 20 8-20 8-8 20-8-20-20-8 20-8z" fill="#2b2723"/>
+</svg>
